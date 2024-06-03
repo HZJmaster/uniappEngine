@@ -1,6 +1,8 @@
 pnpm-lock.yaml
 pnpm-debug.log*
 package.json
+pages.json
+manifest.json
 
 node_modules
 dist
