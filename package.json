@@ -38,7 +38,9 @@
     "build:quickapp-webview": "uni build -p quickapp-webview",
     "build:quickapp-webview-huawei": "uni build -p quickapp-webview-huawei",
     "build:quickapp-webview-union": "uni build -p quickapp-webview-union",
-    "type-check": "vue-tsc --noEmit"
+    "type-check": "vue-tsc --noEmit",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "format": "prettier --config .prettierrc --write ."
   },
   "dependencies": {
     "@dcloudio/uni-app": "3.0.0-4000720240327002",
@@ -55,6 +57,7 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-4000720240327002",
     "@dcloudio/uni-mp-xhs": "3.0.0-4000720240327002",
     "@dcloudio/uni-quickapp-webview": "3.0.0-4000720240327002",
+    "eslint-config-prettier": "9.0.0",
     "pinia": "^2.1.7",
     "pinia-plugin-persistedstate": "^3.2.1",
     "vue": "^3.3.11",
@@ -73,7 +76,6 @@
     "@vue/runtime-core": "^3.3.11",
     "@vue/tsconfig": "^0.1.3",
     "eslint": "8.48.0",
-    "eslint-config-prettier": "9.0.0",
     "eslint-plugin-prettier": "5.0.0",
     "husky": "8.0.3",
     "lint-staged": "14.0.1",

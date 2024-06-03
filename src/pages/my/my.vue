@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
+import Vue from 'vue'
 export default Vue.extend({
   components: {},
   data() {
@@ -31,7 +31,7 @@ export default Vue.extend({
   // onPageScroll(event) {},
   // 页面处理函数--用户点击右上角分享
   // onShareAppMessage(options) {},
-}) 
+})
 </script>
 
 <style scoped></style>
