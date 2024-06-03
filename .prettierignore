@@ -1,6 +1,4 @@
-node_module/
-dist/
-.prettierignore
-.eslintignore
-.gitignore
+node_module
+dist
+
 pnpm-lock.yaml

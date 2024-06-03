@@ -1,0 +1,6 @@
+pnpm-lock.yaml
+pnpm-debug.log*
+package.json
+
+node_modules
+dist
