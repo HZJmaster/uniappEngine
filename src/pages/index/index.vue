@@ -10,7 +10,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const title = ref('Hello huang')
+const title = ref('Hello')
 
 const obj = {
   hello: '啊的外地',
